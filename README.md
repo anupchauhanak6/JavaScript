@@ -10,6 +10,7 @@ JavaScript has 8 data types.
 * Number
 * String
 * Boolean
+* Null
 * Undefined
 * Bigint
 * Symbol
