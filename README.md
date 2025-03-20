@@ -1,10 +1,10 @@
-# <span style="color:aqua"> JavaScript </span>
+# JavaScript
 JavaScript is a programming language used to create interective web pages as well as data manipulation and validation.
 
-# <span style="color:aqua"> Variables </span>
+# Variables
 in JavaScript variables are containers for storing data values.
 
-# <span style="color:aqua"> Data Types </span>
+# Data Types
 JavaScript has 8 data types.
 
 * Number
