@@ -14,8 +14,8 @@ console.log("after change the value: ");
 accountEmail = "ak@gmail.com"
 accountPassword = "22222222"
 accountCity = "Varansi"
-
-console.table([accountId, accountEmail, accountPassword, accountCity])
+let accountState;
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 
 /*
 Prefer to not to use var
