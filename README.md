@@ -1,5 +1,8 @@
 # 🌟 My JavaScript Learning Journey
 
+![Last Updated](https://img.shields.io/badge/Last_Updated-2025--03--25-blue)
+![Created By](https://img.shields.io/badge/Created_by-anupchauhanak6-orange)
+
 Hello and welcome! I’m a student on an exciting journey to learn JavaScript, and this repository is my personal diary where I document my progress, experiments, projects, and insights. Join me as I navigate the world of JavaScript, one topic at a time!
 
 ---
