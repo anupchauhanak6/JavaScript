@@ -2,46 +2,98 @@
 
 ![Last Updated](https://img.shields.io/badge/Last_Updated-2025--03--25-blue)
 ![Created By](https://img.shields.io/badge/Created_by-anupchauhanak6-orange)
+![Progress](https://img.shields.io/badge/Progress-Foundations-brightgreen)
 
-Hello and welcome! I’m a student on an exciting journey to learn JavaScript, and this repository is my personal diary where I document my progress, experiments, projects, and insights. Join me as I navigate the world of JavaScript, one topic at a time!
+Hello and welcome! I'm a student on an exciting journey to learn JavaScript, and this repository is my personal diary where I document my progress, experiments, projects, and insights. Join me as I navigate the world of JavaScript, one topic at a time!
 
 ---
 
-## 🚀 Introduction
+## 🚀 Quick Start
+
+1. **Browse the folders** organized by topic (Basics, Functions, DOM, etc.)
+2. **Read the code examples** with detailed comments
+3. **Run the files** in Node.js or a browser console
+4. **Experiment & modify** the code to deepen your understanding
+
+```bash
+# To run any JavaScript file:
+node 01_Basics/01_variables.js
+```
+
+---
+
+## 📁 Repository Structure
+
+```
+JavaScript/
+├── 01_Basics/
+│   ├── 00_test.js                # Testing setup
+│   ├── 01_variables.js           # let, const, var
+│   ├── 02_DataTypes.js           # Primitives & objects
+│   ├── 03_conversionOperations.js # Type conversion
+│   └── 04_comparision.js         # Comparison operators
+├── README.md                      # You are here!
+└── 📂 More folders coming soon...
+```
+
+---
+
+## 🎯 Introduction
 
 JavaScript is an essential language for creating interactive websites and building modern web applications. As I learn, I’m exploring everything from the basics of variables and functions to more dynamic topics like event handling and asynchronous programming. My goal is to build a solid foundation that will allow me to create fun projects and eventually contribute to real-world applications.
 
 ---
 
-## 📚 What’s Inside
+## 📚 Learning Path
 
-- **Learning Notes & Tutorials**: Detailed explanations and reflections on each topic.
-- **Code Examples**: Simple, commented examples that help me (and you!) understand how JavaScript works.
-- **Project Ideas**: Practical projects to apply what I've learned—from simple web apps to interactive challenges.
-- **Resource Library**: A curated list of essential links, especially from MDN Web Docs, to guide you through each topic.
+### Phase 1: Foundations (Current) 🔥
+
+Master the core building blocks of JavaScript:
+
+| Topic                  | Files                                             | Status         |
+| ---------------------- | ------------------------------------------------- | -------------- |
+| Variables & Data Types | `01_variables.js`, `02_DataTypes.js`              | 📚 In Progress |
+| Operators & Conversion | `03_conversionOperations.js`, `04_comparision.js` | 📚 In Progress |
+| Control Flow           | Coming Soon                                       | ⏳ Upcoming    |
+| Functions              | Coming Soon                                       | ⏳ Upcoming    |
+
+### Phase 2: Intermediate 📖
+
+- Scope & Closures
+- Object-Oriented Programming
+- Array & String Methods
+
+### Phase 3: Advanced 🚀
+
+- Asynchronous JavaScript
+- DOM & Events
+- Modern JavaScript (ES6+)
 
 ---
 
-## 📖 Topics I’m Covering
+## 📖 Detailed Topics
 
-### 1. JavaScript Basics
-- **Introduction & Overview**  
-  Learn about what JavaScript is and why it’s important.  
-  [MDN: JavaScript Overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+### 1. JavaScript Basics (Folder: `01_Basics/`)
+
+Build your foundation with essential concepts:
 
 - **Variables & Data Types**  
-  Understanding `let`, `const`, `var`, and the different data types.  
-  [MDN: Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+  Understanding `let`, `const`, `var` and working with different data types.  
+  📄 Files: `01_variables.js`, `02_DataTypes.js`  
+  🔗 [MDN: Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
-- **Operators & Expressions**  
-  Discover how to use arithmetic, comparison, and logical operators.  
-  [MDN: Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+- **Type Conversion & Operations**  
+  Learn type conversion and arithmetic operations.  
+  📄 Files: `03_conversionOperations.js`  
+  🔗 [MDN: Type Coercion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 
-- **Control Structures**  
-  Master conditional statements (`if`, `switch`) and loops (`for`, `while`).  
-  [MDN: Control Flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+- **Comparison & Logical Operators**  
+  Master comparisons and boolean logic.  
+  📄 Files: `04_comparision.js`  
+  🔗 [MDN: Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 ### 2. Functions & Scope
+
 - **Function Declarations & Expressions**  
   Learn the different ways to define and use functions.  
   [MDN: Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
@@ -55,6 +107,7 @@ JavaScript is an essential language for creating interactive websites and buildi
   [MDN: Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 ### 3. Working with the DOM & Events
+
 - **DOM Manipulation**  
   Learn how to select and modify HTML elements dynamically.  
   [MDN: Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
@@ -64,6 +117,7 @@ JavaScript is an essential language for creating interactive websites and buildi
   [MDN: Introduction to Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
 
 ### 4. Modern JavaScript (ES6+)
+
 - **Template Literals, Destructuring & More**  
   Dive into new features that make coding more intuitive and concise.  
   [MDN: JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
@@ -73,6 +127,7 @@ JavaScript is an essential language for creating interactive websites and buildi
   [MDN: JavaScript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
 ### 5. Asynchronous JavaScript
+
 - **Callbacks, Promises, & Async/Await**  
   Understand how to manage asynchronous operations.  
   [MDN: Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
@@ -90,4 +145,4 @@ function greet(name) {
 }
 
 console.log(greet("Anup"));
-
+```
