@@ -1,6 +1,6 @@
 # 🌟 My JavaScript Learning Journey
 
-![Last Updated](https://img.shields.io/badge/Last_Updated-2025--03--25-blue)
+![Last Updated](https://img.shields.io/badge/Last_Updated-2025--12--21-blue)
 ![Created By](https://img.shields.io/badge/Created_by-anupchauhanak6-orange)
 ![Progress](https://img.shields.io/badge/Progress-Foundations-brightgreen)
 
